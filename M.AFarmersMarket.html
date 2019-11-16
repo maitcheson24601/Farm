@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>M.A Farmers Market</title>
+<link href="M.AFarmersMarket.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="Hello.js"></script>
+
+	<style>
+body {
+background: url(images/WB.jpg);    
+}
+</style>
+</head>
+<body>
+<!-- Start -->
+<div class="container"> 
+  <!-- Navigation -->
+  <header> <a href="">
+    <h4 class="logo">M.A FARMERSMARKET</h4>
+    </a>
+    <nav>
+      <ul>
+        <li><a href="#hero">HOME</a></li>
+        <li><a href="#menu">MENU</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+      </ul>
+    </nav>
+  </header>
+<form action="/action_page.php" class="UserPass">
+    Username: <input type="text" name="username" required placeholder="Username"><br>
+  Password: <input type="text" name="password" required placeholder="Password"><br>
+  	<!-- Script Button -->
+	<button onclick="Log();">Submit</button>
+	<script>
+function Log() {
+  alert("Our V.I.P Customer Has Logged In");
+}
+</script>
+</form>
+	<form action="/action_page.php" class="pick">
+	<p class="pick" id="pick">
+		  <label>
+		    <input type="radio" name="Pickup" value="radio" id="Pickup_0">
+		    Pick-Up</label>
+		  <br>
+		  <label>
+		    <input type="radio" name="Pickup" value="radio" id="Pickup_1">
+		    Delivery</label>
+		  <br>
+			<label>
+		    <input type="radio" name="Pickup" value="radio" id="Pickup_2">
+		    Drop-Off</label>
+		  <br>
+</p>
+	</form>
+	<!-- Shopping Section -->
+
+	<img src="images/Supermarket720x440.jpg" alt="" width="720" height="440" class="shopping" id="shopping"/>  
+	
+	<!-- About Section -->
+  <section class="about" id="about">
+    <h2 class="hidden">About</h2>
+    <p class="text_column">A Quick List Of Fruits To Buy In Bulk,</p>
+    <br><br>
+	  <p><br>
+	    <label>
+	      <input type="checkbox" name="CheckboxGroup1" value="12" id="CheckboxGroup1_0">
+	      Apples</label>
+	    <br>
+	    <label>
+	      <input type="checkbox" name="CheckboxGroup1" value="12" id="CheckboxGroup1_1">
+        Oranges</label>
+	    <br>
+	    <label>
+	      <input type="checkbox" name="CheckboxGroup1" value="12" id="CheckboxGroup1_2">
+        Pineapples</label>
+	    <br>
+	    <label>
+	      <input type="checkbox" name="CheckboxGroup1" value="12" id="CheckboxGroup1_3">
+	      Avocados</label>
+	    <br>
+	    <label>
+	      <input type="checkbox" name="CheckboxGroup1" value="12" id="CheckboxGroup1_4">
+        Blueberries</label>
+	    <br>
+	    <label>
+	      <input type="checkbox" name="CheckboxGroup1" value="12" id="CheckboxGroup1_5">
+        Strawberries</label>
+	    <br>
+	    <label>
+	      <input type="checkbox" name="CheckboxGroup1" value="12" id="CheckboxGroup1_6">
+        Mangos</label>
+	    <br>
+		  	<!-- Script Button -->
+<button onclick="Purchased();">Submit</button>
+	<script>
+		function Purchased()
+		{
+		alert ("Thank You For Your Purchased");
+  }	
+	</script>
+    </p>
+<p class="text_column">
+      <label for="textarea">Please Submit A Customer Comment So That We Can Better Assits You And Our Furure Cutsomers To Come :</label>
+      <textarea name="textarea" rows="10" cols="77" id="textarea">
+		</textarea>
+		<!-- Script Button -->
+	<button onclick="Customer();">Submit</button>
+	<script>
+		function Customer()
+		{
+		alert ("Thank You! Your Customer Feed Back Will Be Taken Into Consideration. Have A Nice Day! ");
+  }	
+	</script>
+    </p>
+</section>
+  <!-- Gallery Section -->
+  <div class="gallery">
+    <div class="thumbnail">
+      <h1 class="stats">FRUITS</h1>
+      <h4>+12</h4>
+      <p>OVER A DOZEN OF FRESH FRUITS AND ORGANIC FRUITS TO CHOOSE FROM<br>
+      </p>
+    </div>
+    <div class="thumbnail">
+      <h1 class="stats">VEGETABLES</h1>
+      <h4>+12</h4>
+      <p>OVER A DOZEN OF FRESH VEGETABLES AND ORGANIC VEGETABLES TO CHOOSE FROM<br>
+      </p>
+    </div>
+    <div class="thumbnail">
+      <h1 class="stats">MEATS - SEAFOOD</h1>
+      <h4>MEATS AND SEAFOODA COMBIND LIST OF OVER +20</h4>
+      <p>FRESHLY DELIVERED DAILY</p>
+    </div>
+    <div class="thumbnail">
+      <h1 class="stats">DAIRY</h1>
+      <h4>ALL NATURAL MILK, FLAVORED MILK, AND ORGANIC</h4>
+      <p>FRESHLY DELIVERED DAILY</p>
+    </div>
+  </div>
+  <!--  Section -->
+  <section class="banner">
+    <h2 class="WHYUS">WHY SHOP AT M.A FARMERS MARKET</h2>
+    <p class="FarmerPara">When food is produced, processed, distributed and sold all within the same region, more money stays in the local economy.  This leads to economic development and job creation.  Farmers markets provide opportunities for small farmers and businesses to sell their products, and they help meet the growing demand for locally produced food.</p>
+  </section>
+  <!-- More Section -->
+  <footer>
+    <article class="footer_column">
+      <h3>Taste Real Flavors</h3>
+      <img src="images/Fruits.jpg" alt="" width="320" height="160" class="cards"/>
+      <p>The food you buy at the farmers market is seasonal. It is fresh and delicious and reflects the truest flavors. Shopping and cooking from the farmers market helps you to reconnect with the cycles of nature in our region. As you look forward to asparagus in spring, savor sweet corn in summer, or bake pumpkins in autumn, you reconnect with the earth, the weather, and the turning of the year.<br>
+      </p>
+    </article>
+    <article class="footer_column">
+      <h3>How About We Nourish Yourself</h3>
+      <img src="images/VegFace.jpg" alt="" width="320" height="160" class="cards"/>
+      <p>Much food found in grocery stores is highly processed and grown using pesticides, hormones, antibiotics, and genetic modification. Some of it has been irradiated, waxed, or gassed in transit. These practices may have negative effects on human health. In contrast, most food found at the farmers market is minimally processed, and many of our farmers go to great lengths to grow the most nutritious produce possible by using sustainable techniques. This will in the long run nourish your body in the long run. </p>
+    </article>
+  </footer>
+  <!-- Footer Section -->
+  <section class="footer_banner" id="contact">
+    <h2 class="hidden">Footer Banner Section </h2>
+    <p class="hero_header">FOR THE LATEST NEWS &amp; UPDATES</p>
+    <div class="button">subscribe</div>
+  </section>
+  <!-- Copyrights Section -->
+  <div class="copyright">&copy;2019 - <strong>All rights are resvered by M.A Farmermarket - Due Nov 17, 2019</strong></div>
+</div>
+<!-- Ends -->
+</body>
+</html>

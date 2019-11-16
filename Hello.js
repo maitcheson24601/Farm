@@ -1,0 +1,1 @@
+alert("Hello And Welcome. Please Click 'O.K' To Get Started And Thank You For Choosing M.A Farmers Market Enjoy!!!")
